@@ -1,0 +1,36 @@
+{"id": "demo-cancel-18", "text": "Please cancel my paid plan now", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-19", "text": "Stop the annual subscription renewal", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-20", "text": "I need my membership cancelled", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-21", "text": "Cancel the service subscription today", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-22", "text": "Cancel my subscription before Friday", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-23", "text": "Please cancel the recurring plan", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-18", "text": "I want a refund for order twenty", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-19", "text": "Please return money for my purchase", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-20", "text": "Refund my accidental duplicate order", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-21", "text": "Please refund the failed purchase", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-22", "text": "My purchase needs a refund", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-23", "text": "Can you refund the last charge", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-18", "text": "My package still has not arrived", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-19", "text": "Please send a shipment update", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-20", "text": "What happened to my parcel delivery", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-21", "text": "Track the package for me please", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-22", "text": "When is the delayed delivery due", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-23", "text": "My order tracking needs an update", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-18", "text": "Please reset the password for my account", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-19", "text": "I cannot log in with my password", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-20", "text": "My password reset token has expired", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-21", "text": "Send me another password reset email", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-22", "text": "Help with a forgotten login password", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-23", "text": "I need the account password changed", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-8", "text": "How do bees make honey", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-9", "text": "Find a recipe for lentil soup", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-10", "text": "Can you explain photosynthesis", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-11", "text": "Who painted the night sky", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-12", "text": "Suggest a name for my new puppy", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-13", "text": "How deep is the Pacific ocean", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-14", "text": "Teach me a chord on the guitar", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-15", "text": "What is the square root of nine", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-16", "text": "Tell me about volcanic eruptions", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-17", "text": "How does a butterfly grow", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-18", "text": "Which bird flies the farthest", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-19", "text": "Explain why the sky is blue", "label": "__unknown__", "group_id": null, "label_source": "authored"}

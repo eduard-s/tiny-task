@@ -1,0 +1,32 @@
+{"id": "demo-cancel-12", "text": "Can you cancel the subscription today", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-13", "text": "I want my annual plan cancelled", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-14", "text": "Please stop my subscription renewal", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-15", "text": "Cancel the membership before renewal", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-16", "text": "End the monthly subscription please", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-17", "text": "How do I cancel this membership", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-12", "text": "Please refund the recent order", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-13", "text": "I want the duplicate payment refunded", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-14", "text": "Can you return my last payment", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-15", "text": "I need the purchase money refunded", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-16", "text": "Please refund this damaged purchase", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-17", "text": "Refund the charge from yesterday", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-12", "text": "Where is my late delivery", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-13", "text": "Please update my parcel tracking", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-14", "text": "When will this shipment arrive", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-15", "text": "I need the package tracking number", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-16", "text": "The parcel delivery is overdue", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-17", "text": "Can you track this shipping order", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-12", "text": "I need to reset my forgotten password", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-13", "text": "My login password does not work", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-14", "text": "Please send a new password reset link", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-15", "text": "The account sign in is locked", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-16", "text": "Help me change this login password", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-17", "text": "The reset password message is missing", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-0", "text": "What is the weather tomorrow", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-1", "text": "Tell me a joke about penguins", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-2", "text": "How do I bake a carrot cake", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-3", "text": "Translate hello into Japanese", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-4", "text": "Recommend a science fiction novel", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-5", "text": "What is the capital of Iceland", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-6", "text": "Explain the orbit of Neptune", "label": "__unknown__", "group_id": null, "label_source": "authored"}
+{"id": "demo-unknown-7", "text": "Write a poem about autumn", "label": "__unknown__", "group_id": null, "label_source": "authored"}

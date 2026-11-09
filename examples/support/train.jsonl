@@ -1,0 +1,48 @@
+{"id": "demo-cancel-0", "text": "Cancel my subscription please", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-1", "text": "I want to cancel the monthly plan", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-2", "text": "Please cancel my account renewal", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-3", "text": "Stop renewing my subscription", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-4", "text": "Cancel the annual subscription", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-5", "text": "Please end my paid subscription", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-6", "text": "I need to cancel the service", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-7", "text": "Cancel my recurring membership", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-8", "text": "I no longer need this subscription", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-9", "text": "Please cancel the next renewal", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-10", "text": "Stop my monthly membership renewal", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-cancel-11", "text": "Close my subscription plan", "label": "cancel", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-0", "text": "I need a refund for this order", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-1", "text": "Please refund the duplicate charge", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-2", "text": "Refund my last payment", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-3", "text": "I want my payment refunded", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-4", "text": "Please return my money", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-5", "text": "Can I get a refund for the purchase", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-6", "text": "The item was broken and I want a refund", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-7", "text": "Please refund the incorrect payment", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-8", "text": "Return the money from my order", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-9", "text": "I need a refund for a damaged item", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-10", "text": "Please process a purchase refund", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-refund-11", "text": "I paid twice and need a refund", "label": "refund", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-0", "text": "Where is my delivery", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-1", "text": "Track my shipping status", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-2", "text": "My parcel has not arrived", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-3", "text": "When will my order arrive", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-4", "text": "Please send the tracking number", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-5", "text": "The delivery is late", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-6", "text": "I need an update on my shipment", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-7", "text": "Where is the package now", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-8", "text": "My shipping tracking has stopped", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-9", "text": "Please track the parcel", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-10", "text": "What is the delivery date", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-shipping-11", "text": "The shipment is delayed", "label": "shipping", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-0", "text": "I forgot my password", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-1", "text": "Please reset my login password", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-2", "text": "My password reset email never arrived", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-3", "text": "I cannot sign in to my account", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-4", "text": "How do I change my password", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-5", "text": "The login page rejects my password", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-6", "text": "Please help me reset the password", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-7", "text": "I lost my account password", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-8", "text": "The password reset link expired", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-9", "text": "I need a new login password", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-10", "text": "My account login is locked", "label": "password", "group_id": null, "label_source": "authored"}
+{"id": "demo-password-11", "text": "Please resend the password reset email", "label": "password", "group_id": null, "label_source": "authored"}
