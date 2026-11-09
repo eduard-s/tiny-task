@@ -1,6 +1,7 @@
 # TinyTask
 
 [![CI](https://github.com/eduard-s/tiny-task/actions/workflows/ci.yml/badge.svg)](https://github.com/eduard-s/tiny-task/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/tiny-task-py)](https://pypi.org/project/tiny-task-py/)
 
 TinyTask trains a local text classifier and measures which requests it can accept.
 Use it for repeated classification tasks, such as support queues or intent routing.
@@ -8,22 +9,21 @@ Use it for repeated classification tasks, such as support queues or intent routi
 The question is practical: can this candidate handle enough requests at your target accuracy?
 TinyTask returns `accept` or `review`, then evaluates the saved candidate against separate test data.
 
-This is an alpha Python package. The proposed PyPI name is `tiny-task-py`.
-Install from the repository until the first registry release.
+This is an alpha Python package. The PyPI name is `tiny-task-py`.
+The import is `tiny_task`. The command is `tiny-task`.
 
 ## Try the support inbox
 
 Use Python 3.11 or later. Run these commands:
 
 ```sh
-git clone https://github.com/eduard-s/tiny-task.git
-cd tiny-task
 python3 -m venv .venv
-.venv/bin/python -m pip install -e .
-.venv/bin/tiny-task demo --output artifacts/demo
+source .venv/bin/activate
+python -m pip install tiny-task-py
+tiny-task demo --output tiny-task-demo
 ```
 
-Open `artifacts/demo/index.html`. The demo trains a local classifier without an API key or model download.
+Open `tiny-task-demo/index.html`. The demo trains a local classifier without an API key or model download.
 It routes cancellation, refund, delivery, and password messages.
 A hamster-haiku request goes to review.
 
@@ -32,13 +32,14 @@ The example data is authored. Its small test set returns `needs_data`, even when
 Use the saved candidate on your own CSV inbox:
 
 ```sh
-.venv/bin/tiny-task predict --model artifacts/demo/model \
-  --input examples/inbox.csv --output artifacts/predictions.jsonl
+tiny-task predict --model tiny-task-demo/model \
+  --input inbox.csv --output predictions.jsonl
 ```
 
 The CSV needs `id` and `text` columns. JSONL uses the same fields.
 The output keeps the ID, proposed label, decision, scores, and reason.
 It does not change the inbox or send messages to an external service.
+Use a new output path for each run. TinyTask refuses to replace existing output files.
 
 ## Why choose TinyTask
 
@@ -57,6 +58,14 @@ Read the [comparison](https://github.com/eduard-s/tiny-task/blob/main/docs/COMPA
 
 ## Train your task
 
+Get the repository for the example files and benchmark recipes:
+
+```sh
+git clone https://github.com/eduard-s/tiny-task.git
+cd tiny-task
+```
+
+Keep the Python environment active. The installed package supplies the commands.
 Prepare three JSONL files. Keep related examples in one split.
 Each labeled row uses this format:
 
@@ -69,12 +78,12 @@ Training data needs at least two known labels.
 Teacher labels can train the model. Calibration and test data need reviewed or dataset labels.
 
 ```sh
-.venv/bin/tiny-task train \
+tiny-task train \
   --train examples/support/train.jsonl \
   --calibration examples/support/calibration.jsonl \
   --min-calibration-accepted 8 --output artifacts/my-task
 
-.venv/bin/tiny-task evaluate --model artifacts/my-task \
+tiny-task evaluate --model artifacts/my-task \
   --test examples/support/test.jsonl --output artifacts/evaluation.json
 ```
 
@@ -84,7 +93,7 @@ Execution errors use code `2`. The supplied small example returns code `3`.
 Use a matching successful report to enforce its criteria during model load:
 
 ```sh
-.venv/bin/tiny-task predict --model artifacts/my-task \
+tiny-task predict --model artifacts/my-task \
   --release-report artifacts/evaluation.json --text "Please cancel my subscription"
 ```
 
@@ -110,8 +119,8 @@ print(task.predict("Write a haiku about a sleepy hamster"))
 ## Optional SetFit training
 
 ```sh
-.venv/bin/python -m pip install -e '.[neural]'
-.venv/bin/tiny-task train --backend setfit --allow-download \
+python -m pip install 'tiny-task-py[neural]'
+tiny-task train --backend setfit --allow-download \
   --train examples/support/train.jsonl \
   --calibration examples/support/calibration.jsonl \
   --min-calibration-accepted 8 --output artifacts/neural-task
@@ -147,6 +156,6 @@ TinyTask does not generate training labels, invoke a fallback model, or do busin
 - [API and artifact contract](https://github.com/eduard-s/tiny-task/blob/main/docs/API.md)
 - [Demo and user trial](https://github.com/eduard-s/tiny-task/blob/main/docs/DEMO.md)
 - [Development](https://github.com/eduard-s/tiny-task/blob/main/CONTRIBUTING.md)
-- [Prepared PyPI release](https://github.com/eduard-s/tiny-task/blob/main/PUBLISHING.md)
+- [PyPI release procedure](https://github.com/eduard-s/tiny-task/blob/main/PUBLISHING.md)
 
 MIT. Read the [third-party notices](https://github.com/eduard-s/tiny-task/blob/main/THIRD_PARTY.md).

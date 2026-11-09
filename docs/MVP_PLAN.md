@@ -19,7 +19,7 @@ The outcome is a local candidate with an explicit review route and evidence for 
 | Release decision | Implemented | Accuracy interval, coverage, and unknown acceptance |
 | CSV inbox demo | Implemented | Local example with review output |
 | Public benchmark | Implemented | One CLINC150 development cohort |
-| PyPI distribution | Prepared | Wheel, source archive, and installation tests |
+| PyPI distribution | Implemented | Wheel, source archive, installation tests, and tag-based release workflow |
 | Live teacher comparison | Planned | Pinned provider, cost record, and gold labels |
 | Multilingual evaluation | Planned | MASSIVE with grouped translations |
 | ONNX service | Planned | Export parity and measured deployment benefit |

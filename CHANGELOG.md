@@ -9,6 +9,4 @@
 - Add a support inbox demo with CSV and JSONL input.
 - Add a pinned public development benchmark and policy comparisons.
 - Add the competitor comparison, dataset protocol, and MVP plan.
-- Prepare the Python distribution and CI.
-
-PyPI publication is a separate release step.
+- Add Python distributions, CI, and a PyPI release workflow.
